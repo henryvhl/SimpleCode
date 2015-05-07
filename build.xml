@@ -13,6 +13,7 @@
         <pathelement location="bin"/>
         <pathelement location="../../../Google Drive/BetaSoft/Automation/selenium-server-standalone-2.45.0.jar"/>
         <pathelement location="lib/javax.mail.jar"/>
+        <pathelement location="lib/mysql-connector-java-5.1.35-bin.jar"/>
     </path>
     <target name="init">
         <mkdir dir="bin"/>
@@ -50,8 +51,18 @@
         <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
         <antcall target="build"/>
     </target>
+    <target name="DBConnector">
+        <java classname="mySQL.DBConnector" failonerror="true" fork="yes">
+            <classpath refid="SimpleCode.classpath"/>
+        </java>
+    </target>
     <target name="EmailSender">
         <java classname="email.EmailSender" failonerror="true" fork="yes">
+            <classpath refid="SimpleCode.classpath"/>
+        </java>
+    </target>
+    <target name="HelloWorld">
+        <java classname="test.HelloWorld" failonerror="true" fork="yes">
             <classpath refid="SimpleCode.classpath"/>
         </java>
     </target>
@@ -62,11 +73,6 @@
             <test name="disney.TestCase" todir="${junit.output.dir}"/>
             <classpath refid="SimpleCode.classpath"/>
         </junit>
-    </target>
-    <target name="HelloWorld">
-        <java classname="test.HelloWorld" failonerror="true" fork="yes">
-            <classpath refid="SimpleCode.classpath"/>
-        </java>
     </target>
     <target name="junitreport">
         <junitreport todir="${junit.output.dir}">

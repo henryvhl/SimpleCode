@@ -128,17 +128,17 @@ public class TestCase {
         /* 11. Move cursor to the coverage step, click and select option */
         new Select(getElementBy("id", "coverageList1Id-sfxid_10", driver)).selectByVisibleText(coverageCost); 
         
-        /* 12. Move cursor to the current state farm field and the click yes or no */
-        if (ifCurrCustomer.equalsIgnoreCase("Yes")) {
-        	getElementBy("id", "custAlreadyWithSF10", driver).click();
-        }
-        else {
-        	getElementBy("id", "custAlreadyWithSF11", driver).click();
-        }
-        Thread.sleep(2500);
-        
-        mouseScrollDown(200, driver);
-        Thread.sleep(1000);
+//        /* 12. Move cursor to the current state farm field and the click yes or no */
+//        if (ifCurrCustomer.equalsIgnoreCase("Yes")) {
+//        	getElementBy("id", "custAlreadyWithSF10", driver).click();
+//        }
+//        else {
+//        	getElementBy("id", "custAlreadyWithSF11", driver).click();
+//        }
+//        Thread.sleep(2500);
+//        
+//        mouseScrollDown(200, driver);
+//        Thread.sleep(1000);
         
         /* 13. Click Get Quote button */
         getElementBy("id", "getQuoteBtnID", driver).click();;
