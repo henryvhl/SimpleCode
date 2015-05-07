@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="JiatekiMacBook-Pro.local" name="disney.TestCase" skipped="0" tests="1" time="59.72" timestamp="2015-05-05T04:13:08">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.JENKINS_SERVER_COOKIE" value="2316ae18915c545e" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="env.XPC_SERVICE_NAME" value="0" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env._system_arch" value="x86_64" />
+    <property name="env.GEM_HOME" value="/Users/Lijia/.rvm/gems/ruby-2.1.2" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/classes" />
+    <property name="env.TMPDIR" value="/var/folders/sg/gf3cr_ws5yq356ptf29pd0tm0000gn/T/" />
+    <property name="env.PWD" value="/Users/Lijia/Documents/SCode7_Frmwork/SimpleCode" />
+    <property name="env.LANG" value="en_US.UTF-8" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/usr/local/Cellar/ant/1.9.4/libexec" />
+    <property name="java.runtime.version" value="1.8.0_40-b25" />
+    <property name="env.MY_RUBY_HOME" value="/Users/Lijia/.rvm/rubies/ruby-2.1.2" />
+    <property name="env.BUILD_DISPLAY_NAME" value="#2" />
+    <property name="env.Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.Ytx6nqB0kv/Render" />
+    <property name="env.DISPLAY" value="/private/tmp/com.apple.launchd.DGJj7HNlc4/org.macosforge.xquartz:0" />
+    <property name="env.rvm_version" value="1.25.28 (stable)" />
+    <property name="user.name" value="Lijia" />
+    <property name="env.USER" value="Lijia" />
+    <property name="env.SHELL" value="/bin/bash" />
+    <property name="env.__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0" />
+    <property name="env._system_type" value="Darwin" />
+    <property name="env.PATH" value="/Library/Frameworks/Python.framework/Versions/2.7/bin:/Users/Lijia/.rvm/gems/ruby-2.1.2/bin:/Users/Lijia/.rvm/gems/ruby-2.1.2@global/bin:/Users/Lijia/.rvm/rubies/ruby-2.1.2/bin:/usr/local/bin:/usr/local/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin:/usr/texbin:/Users/Lijia/.rvm/bin" />
+    <property name="user.language" value="en" />
+    <property name="env.rvm_prefix" value="/Users/Lijia" />
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="env.XPC_FLAGS" value="0x0" />
+    <property name="ant.project.name" value="SimpleCode" />
+    <property name="env.rvm_path" value="/Users/Lijia/.rvm" />
+    <property name="env.RUBY_VERSION" value="ruby-2.1.2" />
+    <property name="java.version" value="1.8.0_40" />
+    <property name="user.timezone" value="America/Los_Angeles" />
+    <property name="env.NODE_NAME" value="master" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="env._system_name" value="OSX" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="env.rvm_bin_path" value="/Users/Lijia/.rvm/bin" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="env.SHLVL" value="1" />
+    <property name="file.separator" value="/" />
+    <property name="env._system_version" value="10.10" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="env.BUILD_NUMBER" value="2" />
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.LOGNAME" value="Lijia" />
+    <property name="ant.file" value="/Users/Lijia/Documents/SCode7_Frmwork/SimpleCode/build.xml" />
+    <property name="os.version" value="10.10.2" />
+    <property name="env.HUDSON_COOKIE" value="32434cb5-2eaa-488d-ab5b-618cf0387457" />
+    <property name="env.TERM_PROGRAM_VERSION" value="343.6" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="25.40-b25" />
+    <property name="ant.library.dir" value="/usr/local/Cellar/ant/1.9.4/libexec/lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.JOB_NAME" value="ourtest" />
+    <property name="env.IRBRC" value="/Users/Lijia/.rvm/rubies/ruby-2.1.2/.irbrc" />
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
+    <property name="env.TERM" value="xterm-256color" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="env.BUILD_TAG" value="jenkins-ourtest-2" />
+    <property name="env.GEM_PATH" value="/Users/Lijia/.rvm/gems/ruby-2.1.2:/Users/Lijia/.rvm/gems/ruby-2.1.2@global" />
+    <property name="target" value="1.7" />
+    <property name="user.home" value="/Users/Lijia" />
+    <property name="env.JENKINS_HOME" value="/Users/Lijia/.jenkins" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="env.TERM_PROGRAM" value="Apple_Terminal" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.library.path" value="/Users/Lijia/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+    <property name="env.HUDSON_HOME" value="/Users/Lijia/.jenkins" />
+    <property name="gopherProxySet" value="false" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="env.HUDSON_SERVER_COOKIE" value="2316ae18915c545e" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner disney.TestCase skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/Lijia/Documents/SCode7_Frmwork/SimpleCode/junit/TEST-disney.TestCase.xml crashfile=/Users/Lijia/Documents/SCode7_Frmwork/SimpleCode/junitvmwatcher6195263298240662847.properties propsfile=/Users/Lijia/Documents/SCode7_Frmwork/SimpleCode/junit1716977117365908632.properties" />
+    <property name="java.class.path" value="/Users/Lijia/Documents/SCode7_Frmwork/SimpleCode/bin:/Users/Lijia/Google Drive/BetaSoft/Automation/selenium-server-standalone-2.45.0.jar:/Users/Lijia/Documents/SCode7_Frmwork/SimpleCode/lib/javax.mail.jar:/usr/local/Cellar/ant/1.9.4/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.4/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.4/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.4/libexec/lib/ant-junit4.jar" />
+    <property name="env.TERM_SESSION_ID" value="4A068631-695B-4F42-B0EB-0923433F14DC" />
+    <property name="env.EXECUTOR_NUMBER" value="0" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="env.JAVA_MAIN_CLASS_2104" value="org.apache.tools.ant.launch.Launcher" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="env.HOME" value="/Users/Lijia" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="java.io.tmpdir" value="/var/folders/sg/gf3cr_ws5yq356ptf29pd0tm0000gn/T/" />
+    <property name="ant.file.type.SimpleCode" value="file" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.kcrb85EhUX/Listeners" />
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.ext.dirs" value="/Users/Lijia/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="env.com.apple.java.jvmTask" value="CommandLine" />
+    <property name="env.BUILD_ID" value="2" />
+    <property name="user.dir" value="/Users/Lijia/Documents/SCode7_Frmwork/SimpleCode" />
+    <property name="ant.file.SimpleCode" value="/Users/Lijia/Documents/SCode7_Frmwork/SimpleCode/build.xml" />
+    <property name="env.JAVA_ARCH" value="x86_64" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="/Users/Lijia/Documents/SCode7_Frmwork/SimpleCode" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="/usr/local/Cellar/ant/1.9.4/libexec/lib/ant.jar" />
+    <property name="source" value="1.7" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="env.WORKSPACE" value="/Users/Lijia/.jenkins/jobs/ourtest/workspace" />
+    <property name="env.JAVA_MAIN_CLASS_2052" value="Main" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="TestCase" />
+    <property name="env.NODE_LABELS" value="master" />
+  </properties>
+  <testcase classname="disney.TestCase" name="testSTLifeQuote" time="59.376">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at disney.TestCase.testSTLifeQuote(TestCase.java:133)
+</error>
+  </testcase>
+  <system-out><![CDATA[Unable to locate element: {"method":"id","selector":"custAlreadyWithSF10"}
+Command duration or timeout: 15.16 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'JiatekiMacBook-Pro.local', ip: '192.168.0.9', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.2', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=36.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d0d8e708-d420-ae43-b374-463f4cc2e34a
+*** Element info: {Using=id, value=custAlreadyWithSF10}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
